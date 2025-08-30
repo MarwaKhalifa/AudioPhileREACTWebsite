@@ -1,0 +1,476 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Manrope', sans-serif;
+}
+
+
+header {
+  background-color: #0E0E0E;
+
+  section {
+    border-bottom: 1px solid #FFFFFF;
+    background-color: #0E0E0E;
+
+  }
+
+  nav {
+    .NavList {
+      a {
+        font-family: Manrope;
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 25px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.HeroSection {
+  width: 100%;
+  height: 600px;
+  background-color: #0E0E0E;
+  overflow: hidden;
+
+  .leftSide {
+    width: 398px;
+    height: 346px;
+    opacity: 1;
+    top: 225px;
+    left: 165px;
+
+    .newProduct {
+      font-family: Manrope;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 100%;
+      letter-spacing: 10px;
+      text-transform: uppercase;
+      color: #FFFFFF;
+
+    }
+
+    h1 {
+      font-family: Manrope;
+      font-weight: 700;
+      font-size: 56px;
+      line-height: 58px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #FFFFFF;
+    }
+
+    .expNatural {
+      font-family: Manrope;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 25px;
+      letter-spacing: 0px;
+      color: #FFFFFF;
+    }
+
+    button {
+      width: 160px;
+      height: 48px;
+      opacity: 1;
+      top: 298px;
+      font-family: Manrope;
+      font-weight: 700;
+      font-size: 13px;
+      line-height: 100%;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: #FFFFFF;
+      background: #D87D4A;
+      border: none;
+    }
+  }
+
+  .rightSide {
+    img {
+      width: 708.7999877929688px;
+      left: 609.6px;
+      opacity: 1;
+    }
+  }
+}
+
+.product {
+  margin-top: 120px;
+  margin-bottom: 168px;
+
+  .productCard {
+    width: 350px;
+    height: 284px;
+    opacity: 1;
+    position: relative;
+
+    .productImg {
+      width: 122.9473648071289px;
+      height: 160px;
+      left: 113.68px;
+      z-index: 10;
+
+
+    }
+
+    .ovalShadowImg {
+      width: 152px;
+      height: 50px;
+      margin-top: -28px;
+      z-index: 10;
+    }
+
+    .maskDiv {
+      width: 350px;
+      height: 204px;
+      top: 80px;
+      opacity: 1;
+      border-radius: 8px;
+      background-color: #F1F1F1;
+      z-index: 1;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+
+    }
+
+    h5 {
+      font-family: Manrope;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 100%;
+      letter-spacing: 1.29px;
+      text-align: center;
+      text-transform: uppercase;
+      color: black;
+      z-index: 10;
+      margin-top: 16px;
+
+    }
+
+    .shop {
+      margin-top: 15px;
+      z-index: 10;
+
+      p {
+        font-family: Manrope;
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 100%;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        opacity: 50%;
+        margin: 0;
+
+      }
+
+      .pathImg {
+        width: 5px;
+        height: 10px;
+        left: 52.32px;
+        opacity: 1;
+        border-width: 2px;
+
+      }
+
+    }
+  }
+}
+
+.speakerSection {
+  width: 1110px;
+  height: 560px;
+  opacity: 1;
+  background-color: #D87D4A;
+  border-radius: 8px;
+  position: relative;
+
+  .ovalShapes {
+    z-index: 1;
+    opacity: 25%;
+
+    .oval1 {
+      position: absolute;
+      left: 78px;
+      bottom: 0;
+    }
+
+    .oval2 {
+      position: absolute;
+      left: 52px;
+      bottom: 0;
+    }
+
+    .oval3 {
+      position: absolute;
+      left: 0px
+    }
+  }
+
+
+
+  .rightSide {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+    overflow-y: hidden;
+    z-index: 2;
+
+    .spkrImg {
+      width: 410.23358154296875px;
+      height: auto;
+      margin-right: 138px;
+      margin-left: 117px;
+      margin-bottom: -30px;
+      z-index: 2;
+
+    }
+  }
+
+  .leftSide {
+    width: 349px;
+    height: 303px;
+    z-index: 2;
+
+    h1 {
+      font-family: Manrope;
+      font-weight: 700;
+      font-size: 56px;
+      line-height: 58px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #FFFFFF;
+
+    }
+
+    p {
+      font-family: Manrope;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 25px;
+      letter-spacing: 0px;
+      opacity: 75%;
+      color: #FFFFFF;
+    }
+
+    button {
+      width: 160px;
+      height: 48px;
+      background-color: #000000;
+      font-family: Manrope;
+      font-weight: 700;
+      font-size: 13px;
+      line-height: 100%;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: #FFFFFF;
+      border: none;
+    }
+  }
+
+}
+
+.speaker2 {
+  width: 1110px;
+  height: 320px;
+  background: #dadada;
+  margin-top: 48px;
+  margin-bottom: 48px;
+  padding: 0;
+  border-radius: 8px;
+
+
+  .leftSide {
+    width: 204px;
+    height: 118px;
+    margin-left: 95px;
+
+    p {
+      font-family: Manrope;
+      font-weight: 700;
+      font-size: 28px;
+      line-height: 100%;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      margin-bottom: 37px;
+      color: black;
+
+    }
+
+    button {
+      width: 160px;
+      height: 48px;
+      top: 70px;
+      left: 1.5px;
+      font-family: Manrope;
+      font-weight: 700;
+      font-size: 13px;
+      line-height: 100%;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      border: 1px solid black;
+      background: #dadada;
+
+    }
+
+  }
+
+  .rightSide {
+    padding: 0;
+
+    img {
+      height: 320px;
+      opacity: 1;
+
+    }
+  }
+}
+
+.earphones {
+  margin-bottom: 200px;
+
+  .rightSide {
+    width: 540px;
+    height: 320px;
+    border-radius: 8px;
+    background-color: #F1F1F1;
+
+    .textDiv {
+      margin-right: 95px;
+
+      p {
+        font-family: Manrope;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 100%;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        margin-bottom: 37px;
+        color: black;
+
+      }
+
+      button {
+        width: 160px;
+        height: 48px;
+        top: 70px;
+        left: 1.5px;
+        font-family: Manrope;
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 100%;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        border: 1px solid black;
+
+      }
+
+    }
+
+  }
+}
+
+.audio {
+  margin-bottom: 200px;
+
+  .textSide {
+    width: 445px;
+    height: 295px;
+    margin-right: 125px;
+
+    h4 {
+      font-family: Manrope;
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 44px;
+      letter-spacing: 1.43px;
+      text-transform: uppercase;
+      color: #000000;
+
+      span {
+        color: #D87D4A;
+      }
+
+    }
+
+    p {
+      font-family: Manrope;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 25px;
+      letter-spacing: 0px;
+      color: #000000;
+      opacity: 50%;
+
+    }
+
+  }
+
+  img {
+    width: 500px;
+    height: 588px;
+    border-radius: 8px;
+  }
+}
+
+.footerSection {
+  background-color: #101010;
+
+  .Pagefooter {
+    background-color: #101010;
+
+    .miniHeader {
+      margin-top: 75px;
+
+      a {
+        font-family: Manrope;
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 25px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: white;
+
+      }
+    }
+
+    .textDiv {
+      margin-top: 36px;
+
+      .summary {
+        width: 540px;
+        height: 100px;
+        opacity: 0.5;
+        font-family: Manrope;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+
+      }
+
+      .copyright {
+        font-family: Manrope;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 25px;
+        letter-spacing: 0px;
+        margin-top: 56px;
+        opacity: 50%;
+        color: #FFFFFF;
+      }
+    }
+
+  }
+}
