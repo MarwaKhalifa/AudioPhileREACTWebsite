@@ -1,3 +1,6 @@
+import facebook from './assets/facebook.png'
+import instgram from './assets/instgram.png'
+import twitter from './assets/twitter.png'
 export default function Footer() {
     return (
         <section className="footerSection">
@@ -20,9 +23,9 @@ export default function Footer() {
                         <p className="copyright">Copyright 2021. All Rights Reserved</p>
                     </div>
                     <div className="socialMediaIcons d-flex align-items-center gap-4">
-                        <img src="/images/facebook.png" alt="" />
-                        <img src="/images/twitter.png" alt="" />
-                        <img src="/images/instgram.png" alt="" />
+                        <img src={facebook} alt="" />
+                        <img src={instgram} alt="" />
+                        <img src={twitter} alt="" />
                     </div>
 
                 </div>

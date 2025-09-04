@@ -1,3 +1,4 @@
+import heroImg from './assets/hero_img.png'
 export default function HeroSection() {
     return (
         <section className="HeroSection ">
@@ -11,7 +12,7 @@ export default function HeroSection() {
                     <button>See Product</button>
                 </div>
                 <div className="rightSide">
-                    <img src="/images/hero_img.png" alt=""/>
+                    <img src={heroImg} alt=""/>
                 </div>
             </div>
         </section>

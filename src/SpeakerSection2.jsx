@@ -1,3 +1,4 @@
+import speaker2 from './assets/speaker2.png'
 export default function SpeakerSection2() {
     return (
         <section>
@@ -7,7 +8,7 @@ export default function SpeakerSection2() {
                     <button>See Product</button>
                 </div>
                 <div className="rightSide">
-                    <img src="/images/speaker2.png" alt="" />
+                    <img src={speaker2} alt="" />
                 </div>
             </div>
         </section>

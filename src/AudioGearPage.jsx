@@ -1,3 +1,4 @@
+import man from './assets/man.PNG'
 export default function AudioGearPage() {
     return (
         <section>
@@ -12,7 +13,7 @@ export default function AudioGearPage() {
                     </p>
                 </div>
                 <div>
-                    <img src="/images/man.PNG" alt="" />
+                    <img src={man} alt="" />
                 </div>
                 
             </div>
